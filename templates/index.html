@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Secure Document Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Secure Document Management System</h1>
+        <p>Securely manage and protect your PDF documents.</p>
+    </header>
+    <main>
+        <h2>Welcome</h2>
+        <p>Welcome to the Secure Document Management System.</p>
+        <p>Securely manage and protect your PDF documents.</p>
+        <a href="{{ url_for('register') }}">Create an Account</a>
+
+        <br><br>
+
+        <a href="{{ url_for('login') }}">Login</a>
+
+    </main>
+</body>
+</html>

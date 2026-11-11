@@ -1,0 +1,14 @@
+#Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Uploaded and encrypted documents
+documents/uploads/*
+documents/encrypted/*
+
+# Private keys
+pki/private/
