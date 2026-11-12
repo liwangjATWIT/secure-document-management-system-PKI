@@ -6,9 +6,13 @@ __pycache__/
 # Environment variables
 .env
 
+# Database
+database.db
+
 # Uploaded and encrypted documents
 documents/uploads/*
 documents/encrypted/*
 
-# Private keys
+# Private keys and certificates
 pki/private/
+pki/ca/private/

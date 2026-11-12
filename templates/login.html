@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="{{ irl_for('static', filename="style.css") }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename="style.css") }}">
 </head>
 <body>
     <main>
@@ -11,7 +11,8 @@
         {% with messages = get_flashed_messages() %}
             {% for message in messages %}
                 <p>{{ message}}</p>
-            {% endwith %}
+            {% endfor %}
+        {% endwith %}
 
             <form method="POST">
                 <label>Email</label>
